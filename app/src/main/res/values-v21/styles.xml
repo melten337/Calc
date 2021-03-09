@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="result_style">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:gravity">bottom|right</item>
+        <item name="android:layout_rowSpan">2</item>
+        <item name="android:layout_rowWeight">2</item>
+        <item name="android:layout_columnSpan">4</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:text">1234.5"</item>
+
+
+    </style>
+
+    <style name="cell_style">
+        <item name="android:layout_rowWeight">1</item>
+        android:layout_columnWeight="1"
+        android:gravity="fill"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_margin="1dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+
+    </style>
+</resources>

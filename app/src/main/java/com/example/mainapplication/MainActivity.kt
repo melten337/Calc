@@ -21,6 +21,7 @@ class MainActivity() : AppCompatActivity() {
         btn_minus.setOnClickListener { setTextFields("-") }
         btn_delen.setOnClickListener { setTextFields("/") }
         btn_Plus.setOnClickListener { setTextFields("+") }
+        btn_dot.setOnClickListener { setTextFields(".") }
         btn_1.setOnClickListener { setTextFields("1") }
         btn_2.setOnClickListener { setTextFields("2") }
         btn_3.setOnClickListener { setTextFields("3") }
